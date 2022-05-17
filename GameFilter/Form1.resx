@@ -1,0 +1,578 @@
+﻿<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lblHizli.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="lblHizli.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 10.8pt, style=Bold</value>
+  </data>
+  <data name="lblHizli.Location" type="System.Drawing.Point, System.Drawing">
+    <value>145, 260</value>
+  </data>
+  <data name="lblHizli.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 25</value>
+  </data>
+  <data name="lblHizli.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblHizli.Text" xml:space="preserve">
+    <value>Hızlı</value>
+  </data>
+  <data name="&gt;&gt;lblHizli.Name" xml:space="preserve">
+    <value>lblHizli</value>
+  </data>
+  <data name="&gt;&gt;lblHizli.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblHizli.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblHizli.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="lblTeketek.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblTeketek.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 10.8pt, style=Bold</value>
+  </data>
+  <data name="lblTeketek.Location" type="System.Drawing.Point, System.Drawing">
+    <value>338, 260</value>
+  </data>
+  <data name="lblTeketek.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 25</value>
+  </data>
+  <data name="lblTeketek.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="lblTeketek.Text" xml:space="preserve">
+    <value>Teke Tek</value>
+  </data>
+  <data name="&gt;&gt;lblTeketek.Name" xml:space="preserve">
+    <value>lblTeketek</value>
+  </data>
+  <data name="&gt;&gt;lblTeketek.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblTeketek.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblTeketek.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="lblRovans.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblRovans.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 10.8pt, style=Bold</value>
+  </data>
+  <data name="lblRovans.Location" type="System.Drawing.Point, System.Drawing">
+    <value>584, 260</value>
+  </data>
+  <data name="lblRovans.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 25</value>
+  </data>
+  <data name="lblRovans.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="lblRovans.Text" xml:space="preserve">
+    <value>Rövanş</value>
+  </data>
+  <data name="&gt;&gt;lblRovans.Name" xml:space="preserve">
+    <value>lblRovans</value>
+  </data>
+  <data name="&gt;&gt;lblRovans.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblRovans.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblRovans.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="btnOk.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Emoji, 10.8pt</value>
+  </data>
+  <data name="btnOk.Location" type="System.Drawing.Point, System.Drawing">
+    <value>338, 359</value>
+  </data>
+  <data name="btnOk.Size" type="System.Drawing.Size, System.Drawing">
+    <value>113, 41</value>
+  </data>
+  <data name="btnOk.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="btnOk.Text" xml:space="preserve">
+    <value>Tamam</value>
+  </data>
+  <data name="&gt;&gt;btnOk.Name" xml:space="preserve">
+    <value>btnOk</value>
+  </data>
+  <data name="&gt;&gt;btnOk.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnOk.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnOk.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="lblBahisAraligi.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblBahisAraligi.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 10.8pt</value>
+  </data>
+  <data name="lblBahisAraligi.Location" type="System.Drawing.Point, System.Drawing">
+    <value>76, 99</value>
+  </data>
+  <data name="lblBahisAraligi.Size" type="System.Drawing.Size, System.Drawing">
+    <value>108, 25</value>
+  </data>
+  <data name="lblBahisAraligi.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="lblBahisAraligi.Text" xml:space="preserve">
+    <value>Bahis Aralığı</value>
+  </data>
+  <data name="&gt;&gt;lblBahisAraligi.Name" xml:space="preserve">
+    <value>lblBahisAraligi</value>
+  </data>
+  <data name="&gt;&gt;lblBahisAraligi.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblBahisAraligi.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblBahisAraligi.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="lblMin.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblMin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>207, 103</value>
+  </data>
+  <data name="lblMin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 20</value>
+  </data>
+  <data name="lblMin.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="lblMin.Text" xml:space="preserve">
+    <value>Min 200$</value>
+  </data>
+  <data name="&gt;&gt;lblMin.Name" xml:space="preserve">
+    <value>lblMin</value>
+  </data>
+  <data name="&gt;&gt;lblMin.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblMin.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblMin.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="lblMax.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblMax.Location" type="System.Drawing.Point, System.Drawing">
+    <value>557, 103</value>
+  </data>
+  <data name="lblMax.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 20</value>
+  </data>
+  <data name="lblMax.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="lblMax.Text" xml:space="preserve">
+    <value>5000$</value>
+  </data>
+  <data name="&gt;&gt;lblMax.Name" xml:space="preserve">
+    <value>lblMax</value>
+  </data>
+  <data name="&gt;&gt;lblMax.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblMax.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblMax.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="seciciBar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>280, 99</value>
+  </data>
+  <data name="seciciBar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>271, 56</value>
+  </data>
+  <data name="seciciBar.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;seciciBar.Name" xml:space="preserve">
+    <value>seciciBar</value>
+  </data>
+  <data name="&gt;&gt;seciciBar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;seciciBar.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;seciciBar.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="lblSecim.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblSecim.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 15pt</value>
+  </data>
+  <data name="lblSecim.Location" type="System.Drawing.Point, System.Drawing">
+    <value>371, 61</value>
+  </data>
+  <data name="lblSecim.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 35</value>
+  </data>
+  <data name="lblSecim.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="lblSecim.Text" xml:space="preserve">
+    <value>200$</value>
+  </data>
+  <data name="&gt;&gt;lblSecim.Name" xml:space="preserve">
+    <value>lblSecim</value>
+  </data>
+  <data name="&gt;&gt;lblSecim.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblSecim.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblSecim.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="hizli.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="hizli.Location" type="System.Drawing.Point, System.Drawing">
+    <value>145, 291</value>
+  </data>
+  <data name="hizli.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>45, 22</value>
+  </data>
+  <data name="hizli.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 22</value>
+  </data>
+  <data name="hizli.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;hizli.Name" xml:space="preserve">
+    <value>hizli</value>
+  </data>
+  <data name="&gt;&gt;hizli.Type" xml:space="preserve">
+    <value>CustomControls.CustomControls.ToggleButton, GameFilter, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;hizli.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;hizli.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="lblHizliHayir.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblHizliHayir.Location" type="System.Drawing.Point, System.Drawing">
+    <value>95, 291</value>
+  </data>
+  <data name="lblHizliHayir.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 20</value>
+  </data>
+  <data name="lblHizliHayir.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="lblHizliHayir.Text" xml:space="preserve">
+    <value>Hayır</value>
+  </data>
+  <data name="&gt;&gt;lblHizliHayir.Name" xml:space="preserve">
+    <value>lblHizliHayir</value>
+  </data>
+  <data name="&gt;&gt;lblHizliHayir.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblHizliHayir.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblHizliHayir.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="lblHizliEvet.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblHizliEvet.Location" type="System.Drawing.Point, System.Drawing">
+    <value>196, 290</value>
+  </data>
+  <data name="lblHizliEvet.Size" type="System.Drawing.Size, System.Drawing">
+    <value>37, 20</value>
+  </data>
+  <data name="lblHizliEvet.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="lblHizliEvet.Text" xml:space="preserve">
+    <value>Evet</value>
+  </data>
+  <data name="&gt;&gt;lblHizliEvet.Name" xml:space="preserve">
+    <value>lblHizliEvet</value>
+  </data>
+  <data name="&gt;&gt;lblHizliEvet.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblHizliEvet.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblHizliEvet.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="lblTeketekEvet.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblTeketekEvet.Location" type="System.Drawing.Point, System.Drawing">
+    <value>414, 291</value>
+  </data>
+  <data name="lblTeketekEvet.Size" type="System.Drawing.Size, System.Drawing">
+    <value>37, 20</value>
+  </data>
+  <data name="lblTeketekEvet.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="lblTeketekEvet.Text" xml:space="preserve">
+    <value>Evet</value>
+  </data>
+  <data name="&gt;&gt;lblTeketekEvet.Name" xml:space="preserve">
+    <value>lblTeketekEvet</value>
+  </data>
+  <data name="&gt;&gt;lblTeketekEvet.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblTeketekEvet.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblTeketekEvet.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lblTeketekHayir.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblTeketekHayir.Location" type="System.Drawing.Point, System.Drawing">
+    <value>313, 291</value>
+  </data>
+  <data name="lblTeketekHayir.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 20</value>
+  </data>
+  <data name="lblTeketekHayir.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="lblTeketekHayir.Text" xml:space="preserve">
+    <value>Hayır</value>
+  </data>
+  <data name="&gt;&gt;lblTeketekHayir.Name" xml:space="preserve">
+    <value>lblTeketekHayir</value>
+  </data>
+  <data name="&gt;&gt;lblTeketekHayir.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblTeketekHayir.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblTeketekHayir.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="teketek.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="teketek.Location" type="System.Drawing.Point, System.Drawing">
+    <value>363, 291</value>
+  </data>
+  <data name="teketek.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>45, 22</value>
+  </data>
+  <data name="teketek.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 22</value>
+  </data>
+  <data name="teketek.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;teketek.Name" xml:space="preserve">
+    <value>teketek</value>
+  </data>
+  <data name="&gt;&gt;teketek.Type" xml:space="preserve">
+    <value>CustomControls.CustomControls.ToggleButton, GameFilter, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;teketek.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;teketek.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="lblRovansEvet.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblRovansEvet.Location" type="System.Drawing.Point, System.Drawing">
+    <value>647, 290</value>
+  </data>
+  <data name="lblRovansEvet.Size" type="System.Drawing.Size, System.Drawing">
+    <value>37, 20</value>
+  </data>
+  <data name="lblRovansEvet.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="lblRovansEvet.Text" xml:space="preserve">
+    <value>Evet</value>
+  </data>
+  <data name="&gt;&gt;lblRovansEvet.Name" xml:space="preserve">
+    <value>lblRovansEvet</value>
+  </data>
+  <data name="&gt;&gt;lblRovansEvet.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblRovansEvet.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblRovansEvet.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblRovansHayir.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblRovansHayir.Location" type="System.Drawing.Point, System.Drawing">
+    <value>546, 290</value>
+  </data>
+  <data name="lblRovansHayir.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 20</value>
+  </data>
+  <data name="lblRovansHayir.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="lblRovansHayir.Text" xml:space="preserve">
+    <value>Hayır</value>
+  </data>
+  <data name="&gt;&gt;lblRovansHayir.Name" xml:space="preserve">
+    <value>lblRovansHayir</value>
+  </data>
+  <data name="&gt;&gt;lblRovansHayir.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblRovansHayir.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblRovansHayir.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="rovans.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rovans.Location" type="System.Drawing.Point, System.Drawing">
+    <value>596, 289</value>
+  </data>
+  <data name="rovans.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>45, 22</value>
+  </data>
+  <data name="rovans.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 22</value>
+  </data>
+  <data name="rovans.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;rovans.Name" xml:space="preserve">
+    <value>rovans</value>
+  </data>
+  <data name="&gt;&gt;rovans.Type" xml:space="preserve">
+    <value>CustomControls.CustomControls.ToggleButton, GameFilter, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;rovans.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;rovans.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>8, 20</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>800, 450</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Masa Özelliklerini Seç</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>MainForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
